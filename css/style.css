@@ -1,0 +1,133 @@
+body {
+    background: #2f3848;
+}
+
+#big_block {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    background: #f05768;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 1em;
+    text-align: center;
+    border-radius: 0 0 0.2em 0.2em;
+    font-size: 3em;
+    font-style: italic;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item {
+    color: yellowgreen;
+    font-size: 2em;
+    margin-right: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a img {
+    width: 3em;
+    margin-left: 1em;
+}
+article h2 {
+    color: #00ccff;
+    font-size: 2em;
+}
+
+article p {
+    color: white;
+}
+
+article p a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+figure {
+    position: relative;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: #f05768;
+    padding: 0.2em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#img {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first {
+    width: 48%;
+    margin: 0 5px 5px 0;
+}
+
+#second {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+#second img {
+    width: 48%;
+}
+
+#third {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#third img {
+    width: 23.75%;
+}
+
+#img_letter {
+    display: flex;
+    column-gap: 10px;
+    align-items: flex-start;
+}
+
+#letter {
+    width: 30%;
+    background: #004488;
+    padding: 1em;
+}
+
+#letter h3 {
+    color: #00ccff;
+    font-size: 2em;
+}
+
+#letter p, #letter a {
+    color: yellowgreen;
+}
+
+footer {
+    text-align: center;
+    color: #00ccff;
+    margin-top: 20px;
+}
